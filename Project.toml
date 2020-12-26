@@ -1,0 +1,13 @@
+name = "Velocimetry"
+uuid = "1d4f9792-cf8a-4d2b-8283-ca1b5b4a2b5a"
+authors = ["Alex Ames <alexander.m.ames@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.5"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
