@@ -1,5 +1,10 @@
 module Velocimetry
 
-# Write your package code here.
+"""
+Test docstring
+"""
+function main()
+    return nothing
+end
 
 end
