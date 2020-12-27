@@ -3,6 +3,9 @@ uuid = "1d4f9792-cf8a-4d2b-8283-ca1b5b4a2b5a"
 authors = ["Alex Ames <alexander.m.ames@gmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+MATLAB = "10e44e05-a98a-55b3-a45b-ba969058deb6"
+
 [compat]
 julia = "1.5"
 
