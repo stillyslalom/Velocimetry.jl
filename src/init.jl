@@ -1,6 +1,11 @@
+using Pkg.Artifacts
+
 function __init__()
-    cd("prana") do
-        mat"addpath($(pwd()))"
-        mat"prana"
+    prana_path = artifact"Prana"
+    if !isCI
+        cd(prana_path) do
+            mat"addpath($(prana_path))"
+            mat"prana"
+        end
     end
 end

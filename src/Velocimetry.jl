@@ -1,15 +1,19 @@
 module Velocimetry
 
-try
-    using MATLAB
-catch e
-    errstr = """Unable to initialize the MATLAB engine. 
-                Check that the MATLAB binary is included in your PATH."""
-    @error errstr exception=e
+# Check whether we're running in a CI environment (can't use MATLAB)
+const isCI = parse(Bool, lowercase(get(ENV, "CI", "false")))
+
+if !isCI
+    try
+        using MATLAB
+    catch e
+        errstr = """Unable to initialize the MATLAB engine. 
+                    Check that the MATLAB binary is included in your PATH."""
+        @error errstr exception=e
+    end
 end
 
 include("init.jl")
-# __init__()
 
 function main()
     return nothing

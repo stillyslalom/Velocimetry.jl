@@ -4,7 +4,9 @@ authors = ["Alex Ames <alexander.m.ames@gmail.com> and contributors"]
 version = "0.1.0"
 
 [deps]
+ArtifactUtils = "8b73e784-e7d8-4ea5-973d-377fed4e3bce"
 MATLAB = "10e44e05-a98a-55b3-a45b-ba969058deb6"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [compat]
 MATLAB = "0.7"
