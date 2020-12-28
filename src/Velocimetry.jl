@@ -17,6 +17,9 @@ end
 
 include("init.jl")
 
+"""
+Docstring test
+"""
 function main()
     return nothing
 end
