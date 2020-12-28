@@ -17,6 +17,6 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/stillyslalom/Velocimetry.jl",
+    repo="github.com/stillyslalom/Velocimetry.jl.git",
     devbranch="main"
 )
