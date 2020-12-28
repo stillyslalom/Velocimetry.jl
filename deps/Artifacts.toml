@@ -1,0 +1,7 @@
+[Prana]
+git-tree-sha1 = "07caae68802215290318c741edb795e439da8810"
+lazy = true
+
+    [[Prana.download]]
+    sha256 = "1f4c6c19732149fbfd250424255a4b45786d060792a7ca96d1c117d1f8030fa2"
+    url = "https://github.com/stillyslalom/prana/archive/v0.1.0.tar.gz"
