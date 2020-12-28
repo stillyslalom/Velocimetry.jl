@@ -1,5 +1,7 @@
 module Velocimetry
 
+export prana
+
 # Check whether we're running in a CI environment (can't use MATLAB)
 const isCI = parse(Bool, lowercase(get(ENV, "CI", "false")))
 
@@ -18,10 +20,12 @@ end
 include("init.jl")
 
 """
-Docstring test
+    prana()
+
+Launches the MATLAB-based prana interface. Requires a 
+working MATLAB installation and successful initialization 
+of the MATLAB.jl Julia-MATLAB interface package.
 """
-function main()
-    return nothing
-end
+prana() = mat"prana"
 
 end

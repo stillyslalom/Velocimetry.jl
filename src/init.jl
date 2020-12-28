@@ -5,7 +5,6 @@ function __init__()
     if !isCI
         cd(prana_path) do
             mat"addpath($(prana_path))"
-            mat"prana"
         end
     end
 end
