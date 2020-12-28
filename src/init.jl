@@ -7,7 +7,5 @@ function __init__()
             mat"addpath($(prana_path))"
             mat"prana"
         end
-    else
-        macro mat_str end
     end
 end

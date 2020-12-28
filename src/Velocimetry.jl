@@ -11,6 +11,8 @@ if !isCI
                     Check that the MATLAB binary is included in your PATH."""
         @error errstr exception=e
     end
+else
+    @eval Velocimetry, macro mat_str(expr) end
 end
 
 include("init.jl")
