@@ -1,5 +1,11 @@
 # This file is machine-generated - editing it directly is not advised
 
+[[ArtifactUtils]]
+deps = ["Pkg", "SHA"]
+git-tree-sha1 = "365f3d6e14acb92aa8f082208621439ed2d2aa4d"
+uuid = "8b73e784-e7d8-4ea5-973d-377fed4e3bce"
+version = "0.1.0"
+
 [[Base64]]
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
@@ -113,7 +119,7 @@ uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
 [[Velocimetry]]
-deps = ["MATLAB"]
+deps = ["ArtifactUtils", "MATLAB", "Pkg"]
 path = ".."
 uuid = "1d4f9792-cf8a-4d2b-8283-ca1b5b4a2b5a"
 version = "0.1.0"
