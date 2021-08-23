@@ -1,7 +1,7 @@
 name = "Velocimetry"
 uuid = "1d4f9792-cf8a-4d2b-8283-ca1b5b4a2b5a"
 authors = ["Alex Ames <alexander.m.ames@gmail.com> and contributors"]
-version = "0.1.0"
+version = "0.1.1"
 
 [deps]
 ArtifactUtils = "8b73e784-e7d8-4ea5-973d-377fed4e3bce"
